@@ -1,0 +1,12 @@
+"""
+Escribir una funcion que reciba
+una tupla con nombres, y para
+cada nombre imprima el mensaje
+Estimado <nombre>, vote por mi.
+"""
+
+def saludar(*args):
+	for x in args:
+		print "Estimado", x, "vote por mi"
+
+saludar("Lim","Celcio","Arturo")
